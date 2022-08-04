@@ -16,5 +16,5 @@ While an unordered_map<std::string, int> using the STL library in C++ makes LZW 
 and fast, dynamic memory allocation is not possible on FPGAs and so one has to resort to having a purely
 C implemenation.
 
-This implementation can be made faster by implementing a hash table instead of a brute force table, or a red-black tree
-structure for CPUs. For FPGAs, it can be made faster by implementing the lookup table in the form of associative memory.
+This implementation can be made faster by implementing a hash table or a red-black tree instead of a brute force table
+for CPUs. For FPGAs, it can be made faster by implementing the lookup table in the form of associative memory.
