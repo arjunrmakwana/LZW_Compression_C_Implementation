@@ -17,4 +17,4 @@ and fast, dynamic memory allocation is not possible on FPGAs and so one has to r
 C implemenation.
 
 This implementation can be made faster by implementing a hash table instead of a brute force table, or a red-black tree
-structure for CPUs or using the mentioned methods with associative memory for SoCs/FPGAs.
+structure for CPUs. For FPGAs, it can be made faster by implementing the lookup table in the form of associative memory.
