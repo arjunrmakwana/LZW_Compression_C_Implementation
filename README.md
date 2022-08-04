@@ -1,7 +1,7 @@
 # LZW_Compression_C_Implementation
 
 This is a C langauage implemenatation of the LZW compression algorithm.
-It uses a table of CODE_LENGTH(here 8192) by 257 bytes to store the required information.
+It uses a table of CODE_LENGTH (here 8192 rows of 257 bytes each) to store the required information.
 
 8192 limits how many entries we can store in the table while 257 bytes limit the maximum charaters per stored string to 256.
 I am using 1 byte of the 257 to store the information about how long the corresponding string is. Since the strings can 
